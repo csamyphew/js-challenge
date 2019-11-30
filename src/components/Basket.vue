@@ -24,12 +24,14 @@ export default {
     basketItems: function(){
       return this.allBaskets.map((item)=>{
         var displayAttrs = item.attrs.map((attr)=>{
-          var tempString = "(" + attr.name.text + ": ";
-          attr.options.forEach((option)=>{
-            tempString += option.text + ", ";
-          });
-          tempString = tempString.slice(0,-2) + ')';
-          return tempString;
+          if(attr.options.length>0){
+            var tempString = "(" + attr.name.text + ": ";
+            attr.options.forEach((option)=>{
+              tempString += option.text + ", ";
+            });
+            tempString = tempString.slice(0,-2) + ')';
+            return tempString;
+          }
         })
         return {
           name: item.name,

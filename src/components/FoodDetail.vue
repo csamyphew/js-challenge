@@ -22,7 +22,7 @@
           v-model="form.attrs[index]['options'][0]" :options="item.inputOptions" :name="'input-group-'+index+1">
         </b-form-radio-group>
       </b-form-group>
-      <b-form-invalid-feedback :state="!form.error">Please select</b-form-invalid-feedback>
+      <b-form-invalid-feedback :state="!form.error">Please select all mandatory option(s)</b-form-invalid-feedback>
       <div class="col-12 mt-3">
         <div class="row justify-content-between">
           <b-button variant="outline-secondary" @click="hideModal">Cancel</b-button>
