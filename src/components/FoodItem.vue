@@ -1,5 +1,5 @@
 <template>
-  <div class="food-item">
+  <div class="food-item col-12 col-sm-6 col-lg-4">
     <h2>{{food.name}}</h2>
     <img :src="require('@/assets/'+food.image)" />
     <b-button v-b-modal="'food'+food.id+'detail-modal'">Show {{food.name}} Modal</b-button>
@@ -17,4 +17,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+  img{
+    width: 100%; 
+  }
 </style>
