@@ -1,7 +1,7 @@
-export const food_items = [{
+export const foods = [{
     id: 1,
     name: "Milkshake",
-    image: "../assets/milkshake.png",
+    image: "milkshake.png",
     price: 30,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     attr: [{
@@ -50,8 +50,8 @@ export const food_items = [{
   },
   {
     id: 2,
-    name: "Cale",
-    image: "../assets/cake.png",
+    name: "Cake",
+    image: "cake.png",
     price: 15,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     attr: [{
@@ -79,7 +79,7 @@ export const food_items = [{
   {
     id: 3,
     name: "Fries",
-    image: "../assets/fries.png",
+    image: "fries.png",
     price: 25,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     attr: [{
@@ -107,7 +107,7 @@ export const food_items = [{
   {
     id: 4,
     name: "Coffee",
-    image: "../assets/coffee.png",
+    image: "coffee.png",
     price: 40,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     attr: [{
@@ -153,7 +153,7 @@ export const food_items = [{
   {
     id: 5,
     name: "Icecream Sundae",
-    image: "../assets/milkshake.png",
+    image: "milkshake.png",
     price: 65,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     attr: [{
@@ -211,7 +211,7 @@ export const food_items = [{
   {
     id: 6,
     name: "Fruit Juice",
-    image: "../assets/juice.png",
+    image: "juice.png",
     price: 30,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     attr: [{

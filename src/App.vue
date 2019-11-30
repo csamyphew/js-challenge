@@ -1,17 +1,27 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <section>
+      Info
+    </section>    
+    <FoodItem :key="food.id" v-for="food in foods" :food="food"/>
+    <Basket />      
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FoodItem from './components/FoodItem'
+import Basket from './components/Basket'
+import { foods } from './data';
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    FoodItem, Basket
+  },
+  data(){
+    return {
+      foods: foods
+    }
   }
 }
 </script>
