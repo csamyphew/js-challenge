@@ -152,8 +152,8 @@ export const foods = [{
   },
   {
     id: 5,
-    name: "Icecream Sundae",
-    image: "milkshake.png",
+    name: "Icecream",
+    image: "icecream.png",
     price: 65,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     attr: [{
