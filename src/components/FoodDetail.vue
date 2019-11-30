@@ -1,5 +1,5 @@
 <template>
-  <b-modal :id="'food'+food.id+'detail-modal'" :ref="'food'+food.id+'detail-modal'" hide-header hide-footer>
+  <b-modal :id="'food'+food.id+'detail-modal'" :ref="'food'+food.id+'detail-modal'" hide-header hide-footer @hide="hideModal">
     <figure class="m-0">
       <img class="w-100" :src="imageUrl" alt="food.name+' image'"/>
       <figcaption>
