@@ -8,20 +8,20 @@ export const foods = [{
         mandatory: true,
         multiple: false,
         title: {
-          key: "flavour",
-          value: "Flavour"
+          value: "flavour",
+          text: "Flavour"
         },
         item: [{
-            key: "chocolate",
-            value: "Chocolate"
+            value: "chocolate",
+            text: "Chocolate"
           },
           {
-            key: "vanilla",
-            value: "Vanilla"
+            value: "vanilla",
+            text: "Vanilla"
           },
           {
-            key: "strawberry",
-            value: "Strawberry"
+            value: "strawberry",
+            text: "Strawberry"
           }
         ]
       },
@@ -29,20 +29,20 @@ export const foods = [{
         mandatory: true,
         multiple: false,
         title: {
-          key: "size",
-          value: "Size"
+          value: "size",
+          text: "Size"
         },
         item: [{
-            key: "small",
-            value: "Small"
+            value: "small",
+            text: "Small"
           },
           {
-            key: "medium",
-            value: "Medium"
+            value: "medium",
+            text: "Medium"
           },
           {
-            key: "large",
-            value: "Large"
+            value: "large",
+            text: "Large"
           }
         ]
       }
@@ -58,20 +58,20 @@ export const foods = [{
       mandatory: true,
       multiple: false,
       title: {
-        key: "flavour",
-        value: "Flavour"
+        value: "flavour",
+        text: "Flavour"
       },
       item: [{
-          key: "black-forest",
-          value: "Black Forest"
+          value: "black-forest",
+          text: "Black Forest"
         },
         {
-          key: "mixed-fruit",
-          value: "Mixed fruit"
+          value: "mixed-fruit",
+          text: "Mixed fruit"
         },
         {
-          key: "marble-cheese",
-          value: "Marble cheese"
+          value: "marble-cheese",
+          text: "Marble cheese"
         }
       ]
     }]
@@ -86,20 +86,20 @@ export const foods = [{
       mandatory: true,
       multiple: false,
       title: {
-        key: "size",
-        value: "Size"
+        value: "size",
+        text: "Size"
       },
       item: [{
-          key: "small",
-          value: "Small"
+          value: "small",
+          text: "Small"
         },
         {
-          key: "medium",
-          value: "Medium"
+          value: "medium",
+          text: "Medium"
         },
         {
-          key: "large",
-          value: "Large"
+          value: "large",
+          text: "Large"
         }
       ]
     }]
@@ -114,16 +114,16 @@ export const foods = [{
         mandatory: true,
         multiple: false,
         title: {
-          key: "temp",
-          value: "Temperature"
+          value: "temp",
+          text: "Temperature"
         },
         item: [{
-            key: "hot",
-            value: "Hot"
+            value: "hot",
+            text: "Hot"
           },
           {
-            key: "cold",
-            value: "Cold"
+            value: "cold",
+            text: "Cold"
           }
         ]
       },
@@ -131,20 +131,20 @@ export const foods = [{
         mandatory: true,
         multiple: false,
         title: {
-          key: "size",
-          value: "Size"
+          value: "size",
+          text: "Size"
         },
         item: [{
-            key: "small",
-            value: "Small"
+            value: "small",
+            text: "Small"
           },
           {
-            key: "medium",
-            value: "Medium"
+            value: "medium",
+            text: "Medium"
           },
           {
-            key: "large",
-            value: "Large"
+            value: "large",
+            text: "Large"
           }
         ]
       }
@@ -160,20 +160,20 @@ export const foods = [{
         mandatory: true,
         multiple: false,
         title: {
-          key: "flavour",
-          value: "Flavour"
+          value: "flavour",
+          text: "Flavour"
         },
         item: [{
-            key: "chocolate",
-            value: "Chocolate"
+            value: "chocolate",
+            text: "Chocolate"
           },
           {
-            key: "vanilla",
-            value: "Vanilla"
+            value: "vanilla",
+            text: "Vanilla"
           },
           {
-            key: "strawberry",
-            value: "Strawberry"
+            value: "strawberry",
+            text: "Strawberry"
           }
         ]
       },
@@ -181,28 +181,28 @@ export const foods = [{
         mandatory: false,
         multiple: true,
         title: {
-          key: "toppings",
-          value: "Toppings"
+          value: "toppings",
+          text: "Toppings"
         },
         item: [{
-            key: "mochi",
-            value: "Mochi"
+            value: "mochi",
+            text: "Mochi"
           },
           {
-            key: "oreos",
-            value: "Oreos"
+            value: "oreos",
+            text: "Oreos"
           },
           {
-            key: "sprinkles",
-            value: "Sprinkles"
+            value: "sprinkles",
+            text: "Sprinkles"
           },
           {
-            key: "hot-fudge",
-            value: "Hot fudge"
+            value: "hot-fudge",
+            text: "Hot fudge"
           },
           {
-            key: "caramel",
-            value: "Caramel"
+            value: "caramel",
+            text: "Caramel"
           }
         ]
       }
@@ -218,32 +218,32 @@ export const foods = [{
       mandatory: true,
       multiple: true,
       title: {
-        key: "fruit",
-        value: "Fruit"
+        value: "fruit",
+        text: "Fruit"
       },
       item: [{
-          key: "apple",
-          value: "Apple"
+          value: "apple",
+          text: "Apple"
         },
         {
-          key: "orange",
-          value: "Orange"
+          value: "orange",
+          text: "Orange"
         },
         {
-          key: "carrot",
-          value: "Carrot"
+          value: "carrot",
+          text: "Carrot"
         },
         {
-          key: "mango",
-          value: "Mango"
+          value: "mango",
+          text: "Mango"
         },
         {
-          key: "Kiwi",
-          value: "Kiwi"
+          value: "Kiwi",
+          text: "Kiwi"
         },
         {
-          key: "banana",
-          value: "Banana"
+          value: "banana",
+          text: "Banana"
         }
       ]
     }]

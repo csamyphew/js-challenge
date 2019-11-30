@@ -10,7 +10,7 @@
       </ul>
       <h5 class="my-3">Total: {{total}}</h5>
       <b-button :disabled="allBaskets.length==0" @click="checkout" 
-                class="col-12" variant="primary">Checkout</b-button>
+                class="col-11" variant="primary">Checkout</b-button>
     </div>
   </aside>
 </template>
@@ -24,9 +24,9 @@ export default {
     basketItems: function(){
       return this.allBaskets.map((item)=>{
         var displayAttrs = item.attrs.map((attr)=>{
-          var tempString = "(" + attr.name.value + ": ";
+          var tempString = "(" + attr.name.text + ": ";
           attr.options.forEach((option)=>{
-            tempString += option.value + ", ";
+            tempString += option.text + ", ";
           });
           tempString = tempString.slice(0,-2) + ')';
           return tempString;
