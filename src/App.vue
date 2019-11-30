@@ -9,7 +9,7 @@
           <FoodItem :key="food.id" v-for="food in foods" :food="food"/>
         </div>
       </section>    
-      <Basket class="col-12 col-sm-4 col-md-3"/>      
+      <Basket class="col-12 col-sm-4 col-md-3 px-sm-0"/>      
     </div>
   </div>
 </template>

@@ -1,9 +1,16 @@
 <template>
-  <aside class="basket">
-    <h5>Total: {{total}}</h5>
-    <div :key="item.id" v-for="item in basketItems">
-      <p class="mb-0">{{item.quantity}} x {{item.name}} {{item.subtotal | currency}}</p>
-      <p :key="index" v-for="(attr, index) in item.displayAttrs" class="mb-0">{{attr}}</p>
+  <aside class="text-center">
+    <div class="basket py-4">
+      <h4 class="mb-3">Your Basket</h4>
+      <ul>
+        <li :key="item.id" v-for="item in basketItems" class="my-3">
+          <p class="mb-0">{{item.quantity}} x {{item.name}} {{item.subtotal | currency}}</p>
+          <p :key="index" v-for="(attr, index) in item.displayAttrs" class="mb-0">{{attr}}</p>
+        </li>
+      </ul>
+      <h5 class="my-3">Total: {{total}}</h5>
+      <b-button :disabled="allBaskets.length==0" @click="checkout" 
+                class="col-12" variant="primary">Checkout</b-button>
     </div>
   </aside>
 </template>
@@ -21,9 +28,7 @@ export default {
           attr.options.forEach((option)=>{
             tempString += option.value + ", ";
           });
-          console.log("before",tempString);
           tempString = tempString.slice(0,-2) + ')';
-          console.log("after",tempString);
           return tempString;
         })
         return {
@@ -35,8 +40,27 @@ export default {
       })
     }
   },
+  methods:{
+    checkout(){
+      console.log(this.allBaskets);
+    }
+  }
 }
 </script>
 
 <style scoped lang="scss">
+aside{
+  height: 100%;
+}
+.basket{
+  background-color: #efefef;
+  border-radius: 5px;
+}
+button:disabled{
+  cursor: unset;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+}
 </style>
